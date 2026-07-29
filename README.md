@@ -1,272 +1,308 @@
-# 📞 Call Centre Performance Dashboard | Power BI
+# 📞 Call Centre Performance Dashboard
 
-## Overview
+<p align="center">
+  <img src="images/overview.png" alt="Call Centre Dashboard Banner" width="100%">
+</p>
 
-This project presents an interactive **Call Centre Performance Dashboard** developed in **Microsoft Power BI** to monitor operational performance, evaluate agent productivity, and uncover actionable business insights. The dashboard consolidates key call centre metrics into an intuitive reporting solution, enabling management to make data-driven decisions that improve customer service and operational efficiency.
+<p align="center">
 
-The report provides a comprehensive view of call volumes, response times, call resolutions, customer satisfaction, and individual agent performance through interactive visualisations and dynamic filtering.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis%20Expressions-blue?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-Transformation-success?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github)
 
----
+</p>
 
-## Business Problem
+<p align="center">
 
-Call centres generate large volumes of operational data every day. Without an effective reporting solution, it can be difficult for managers to identify performance trends, monitor service levels, and recognise areas requiring operational improvement.
+**An interactive Power BI dashboard designed to analyse call centre operations, monitor agent performance, and generate actionable business insights.**
 
-This dashboard was designed to answer key business questions such as:
-
-- How many calls are being received and answered?
-- What percentage of calls are successfully resolved?
-- Which time of day receives the highest call volume?
-- Which agents perform best across key service metrics?
-- Which support topics generate the highest workload?
-- How satisfied are customers with the service received?
-
----
-
-## Objectives
-
-The objectives of this project were to:
-
-- Develop an interactive executive dashboard for monitoring call centre KPIs.
-- Analyse call trends across different time periods.
-- Evaluate individual agent performance.
-- Monitor customer satisfaction levels.
-- Identify operational bottlenecks and opportunities for improvement.
-- Present business insights in a clear and visually engaging format.
+</p>
 
 ---
 
-## Dashboard Pages
+# ⭐ Featured Project
 
-### 1. Executive Overview
+This dashboard demonstrates an end-to-end Business Intelligence solution built in **Microsoft Power BI**, transforming raw operational call centre data into meaningful visualisations that support strategic and operational decision-making.
 
-The Overview page provides senior management with a high-level summary of call centre performance, including:
-
-- Total Calls
-- Answered Calls
-- Resolved Calls
-- Abandoned Calls
-- Average Handle Time
-- Average Speed of Answer
-- Resolution Rate
-- Customer Satisfaction Rating
-- Call distribution by hour
-- Call distribution by topic
-- Monthly performance trends
+The report enables stakeholders to monitor key performance indicators, evaluate customer service efficiency, compare agent performance, and identify operational improvement opportunities through an intuitive and interactive reporting experience.
 
 ---
 
-### 2. Agent Performance
+# 📑 Table of Contents
 
-This page focuses on analysing individual agent performance through metrics including:
-
-- Total Calls handled
-- Answered Calls
-- Average Handle Time
-- Average Speed of Answer
-- Resolution Rate
-- Top-performing agents
-- Agents with the lowest abandonment rate
-- Customer satisfaction by agent
-- Performance comparison using scatter plots and ranking visuals
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Objectives](#objectives)
+- [Dashboard Features](#dashboard-features)
+- [Dashboard Pages](#dashboard-pages)
+- [Key Performance Indicators](#key-performance-indicators)
+- [Dataset](#dataset)
+- [Power BI Techniques Used](#power-bi-techniques-used)
+- [Business Insights](#business-insights)
+- [Business Recommendations](#business-recommendations)
+- [Project Structure](#project-structure)
+- [Future Improvements](#future-improvements)
+- [Author](#author)
 
 ---
 
-### 3. Business Insights
+# 📊 Project Overview
 
-The Insights page summarises key findings generated from the dashboard, highlighting operational trends and providing management with actionable recommendations based on the analysed data.
+This project analyses operational performance within a call centre using interactive dashboards built in **Microsoft Power BI**.
 
-Examples include:
+The solution enables decision-makers to:
 
-- Peak call periods
+- Monitor call centre activity
+- Track service quality
+- Analyse customer satisfaction
+- Evaluate individual agent performance
+- Identify peak demand periods
+- Improve operational efficiency
+
+---
+
+# 💼 Business Problem
+
+Managing thousands of daily customer interactions can make it difficult for management to identify operational issues using traditional reports.
+
+The objective of this dashboard was to create a single source of truth that provides real-time visibility into:
+
+- Call demand
 - Resolution performance
-- Call abandonment trends
-- Agent performance observations
-- Customer satisfaction analysis
+- Customer satisfaction
+- Agent productivity
+- Operational bottlenecks
 
 ---
 
-## Key Performance Indicators (KPIs)
+# 🎯 Objectives
 
-The dashboard tracks the following KPIs:
+✔ Build an executive performance dashboard
+
+✔ Monitor key operational KPIs
+
+✔ Compare agent performance
+
+✔ Analyse customer satisfaction
+
+✔ Monitor call abandonment
+
+✔ Provide actionable business insights
+
+---
+
+# 🚀 Dashboard Features
+
+- Interactive slicers
+- Dynamic KPI cards
+- DAX Measures
+- Power Query transformations
+- Executive dashboard
+- Agent performance dashboard
+- Business insight reporting
+- Time-based trend analysis
+- Topic analysis
+- Customer satisfaction monitoring
+
+---
+
+# 📸 Dashboard Pages
+
+## Executive Overview
+
+<p align="center">
+<img src="images/Overview.png" width="95%">
+</p>
+
+The Executive Dashboard provides a high-level overview of operational performance, including:
 
 - Total Calls
 - Answered Calls
 - Resolved Calls
-- Abandoned Calls
-- Resolution Rate (%)
-- Call Abandonment Rate (%)
 - Average Handle Time
 - Average Speed of Answer
-- Overall Customer Satisfaction Rating
+- Call Abandonment Rate
+- Resolution Rate
+- Customer Satisfaction
+- Call Trends
+- Topic Performance
 
 ---
 
-## Dataset
+## Agent Performance
 
-The dataset contains operational call centre information including:
+<p align="center">
+<img src="images/agent-performance.png" width="95%">
+</p>
+
+The Agent Performance dashboard compares agents across multiple service metrics including:
+
+- Calls handled
+- Resolution Rate
+- Handle Time
+- Speed of Answer
+- Customer Satisfaction
+- Top Performing Agents
+- Lowest Abandonment Rate
+
+---
+
+## Business Insights
+
+## <p align="center">
+## <img src="images/insights.png" width="95%">
+## </p>
+
+The Insights page summarises key operational findings identified from the analysis and translates dashboard metrics into business recommendations for management.
+
+---
+
+# 📈 Key Performance Indicators
+
+| KPI | Description |
+|------|-------------|
+| Total Calls | Total customer calls received |
+| Answered Calls | Successfully answered calls |
+| Resolved Calls | Successfully resolved calls |
+| Abandoned Calls | Calls abandoned before answering |
+| Resolution Rate | Percentage of resolved calls |
+| Abandonment Rate | Percentage of abandoned calls |
+| Average Handle Time | Average duration of each call |
+| Average Speed of Answer | Average customer waiting time |
+| Customer Satisfaction | Overall customer rating |
+
+---
+
+# 🗂 Dataset
+
+The dashboard analyses operational call centre data containing:
 
 - Call Date
-- Time of Call
+- Call Time
 - Agent
-- Call Topic
+- Topic
 - Answered Status
 - Resolved Status
 - Handle Time
 - Speed of Answer
 - Customer Satisfaction Rating
 
-> **Note:** The dataset used for this project has been anonymised for portfolio purposes.
+> **Note:** The dataset has been anonymised for portfolio purposes.
 
 ---
 
-## Tools & Technologies
+# ⚙ Power BI Techniques Used
 
-- Microsoft Power BI
+## Data Preparation
+
 - Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Excel
-
----
-
-## Power BI Features Used
-
-- Data Modelling
-- Star Schema Design
-- Power Query Data Transformation
-- DAX Measures
-- Calculated Columns
-- KPI Cards
-- Interactive Slicers
-- Drill-through Navigation
-- Dynamic Filtering
-- Custom Visual Formatting
-- Scatter Charts
-- Gauge Charts
-- Line Charts
-- Column Charts
-- Tables
-- Business Insight Reporting
-
----
-
-## Skills Demonstrated
-
-This project demonstrates practical experience in:
-
-- Business Intelligence
-- Dashboard Design
-- Data Visualisation
 - Data Cleaning
 - Data Transformation
 - Data Modelling
-- DAX Development
-- KPI Reporting
-- Performance Analysis
-- Operational Analytics
-- Data Storytelling
-- Business Insight Generation
+
+## DAX Measures
+
+Examples include:
+
+- Total Calls
+- Resolution Rate
+- Average Handle Time
+- Average Speed of Answer
+- Call Abandonment Rate
+
+## Visualisations
+
+- KPI Cards
+- Line Charts
+- Clustered Column Charts
+- Gauge Charts
+- Tables
+- Scatter Charts
+- Interactive Filters
 
 ---
 
-## Key Insights
+# 💡 Business Insights
 
-Some of the insights obtained from the analysis include:
+Key findings include:
 
-- Afternoon periods recorded the highest call volumes, indicating peak demand.
+- Afternoon periods experienced the highest call volumes, indicating peak customer demand.
 - Streaming and Technical Support generated the largest proportion of customer enquiries.
-- Overall call resolution remained close to 90%, reflecting strong operational performance.
-- Customer satisfaction averaged **3.4 out of 5**, indicating opportunities to improve customer experience.
-- Agent performance varied across handle time, response speed, and resolution rate, highlighting opportunities for coaching and workload optimisation.
+- Overall resolution rates remained close to **90%**, demonstrating strong operational performance.
+- Customer satisfaction averaged **3.40 / 5**, suggesting opportunities to further enhance customer experience.
+- Agent performance varied across handle time, response speed, and resolution rates, highlighting opportunities for coaching and workload optimisation.
 
 ---
 
-## Business Recommendations
+# 📌 Business Recommendations
 
-Based on the findings, the following recommendations are proposed:
-
-- Increase staffing during afternoon peak periods.
-- Investigate causes of call abandonment and implement strategies to reduce waiting times.
-- Review handling processes for high-volume support topics.
-- Share best practices from high-performing agents across the wider team.
-- Continue monitoring customer satisfaction to identify service improvement opportunities.
-- Use dashboard insights to support workforce planning and performance management.
+- Increase staffing during peak afternoon periods.
+- Investigate drivers of call abandonment to reduce customer waiting times.
+- Review workflows for high-volume support categories.
+- Share best practices from top-performing agents.
+- Continue monitoring customer satisfaction trends.
+- Use dashboard insights to support workforce planning and operational decision-making.
 
 ---
 
-## Screenshots
-
-### Executive Overview
-
-![Overview](images/Overview.png)
-
----
-
-### Agent Performance
-
-![Agent Performance](images/agent-performance.png)
-
----
-
-### Business Insights
-
-*Insert Insights Screenshot*
-
----
-
-## Future Improvements
-
-Potential enhancements for future versions include:
-
-- Real-time data integration
-- Forecasting using Power BI AI visuals
-- Drill-through agent reports
-- Service Level Agreement (SLA) tracking
-- Predictive analysis of call demand
-- Customer sentiment analysis
-- Automated report refresh using Power BI Service
-
----
-
-## Repository Structure
+# 📁 Project Structure
 
 ```
-Call-Centre-PowerBI-Dashboard/
+call-centre-powerbi-dashboard
 │
-├── data/
-│   └── call_centre_sample_data.csv
+├── README.md
+├── LICENSE
 │
-├── images/
+├── images
 │   ├── overview.png
 │   ├── agent-performance.png
 │   └── insights.png
 │
-├── powerbi/
-│   └── Call Centre Dashboard.pbix
+├── data
+│   └── call_centre_sample.csv
 │
-├── README.md
-└── LICENSE
+└── powerbi
+    └── Call Centre Dashboard.pbix
 ```
 
 ---
 
-## Author
+# 🔮 Future Improvements
 
-**Johnson Weniaru**
+Future enhancements could include:
 
-Data Analyst | Business Intelligence Analyst | Power BI Developer
+- Power BI Service deployment
+- Real-time dashboard refresh
+- Predictive call volume forecasting
+- AI-powered customer sentiment analysis
+- SLA monitoring dashboard
+- Drill-through agent profiles
+- Mobile-optimised report layout
 
-**Skills**
+---
+
+# 👨‍💻 Author
+
+## Johnson Weniaru
+
+**Data Analyst | Business Intelligence Analyst | Power BI Developer**
+
+### Technical Skills
 
 - Power BI
 - SQL
 - Python
 - Excel
 - Tableau
-- Data Analytics
-- Business Intelligence
+- Power Query
+- DAX
+- Git & GitHub
 - Data Visualisation
+- Business Intelligence
+- Data Analytics
 
 ---
 
-If you found this project interesting, feel free to connect with me on LinkedIn or explore my other analytics projects.
+⭐ **If you found this project useful, please consider giving it a Star!**
