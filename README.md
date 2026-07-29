@@ -151,9 +151,9 @@ The Agent Performance dashboard compares agents across multiple service metrics 
 
 ## Business Insights
 
-## <p align="center">
-## <img src="images/insights.png" width="95%">
-## </p>
+<p align="center">
+<img src="images/insights.png" width="95%">
+</p>
 
 The Insights page summarises key operational findings identified from the analysis and translates dashboard metrics into business recommendations for management.
 
