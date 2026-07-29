@@ -198,13 +198,13 @@ Based on the findings, the following recommendations are proposed:
 
 ### Executive Overview
 
-*Insert Overview Dashboard Screenshot*
+![Overview](images/overview.png)
 
 ---
 
 ### Agent Performance
 
-*Insert Agent Performance Screenshot*
+![Agent Performance](images/agent-performance.png)
 
 ---
 
