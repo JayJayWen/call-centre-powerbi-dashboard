@@ -198,7 +198,7 @@ Based on the findings, the following recommendations are proposed:
 
 ### Executive Overview
 
-![Overview](images/overview.png)
+![Overview](images/Overview.png)
 
 ---
 
