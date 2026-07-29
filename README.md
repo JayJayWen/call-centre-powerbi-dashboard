@@ -1,7 +1,7 @@
 # 📞 Call Centre Performance Dashboard
 
 <p align="center">
-  <img src="images/overview.png" alt="Call Centre Dashboard Banner" width="100%">
+  <img src="images/Overview.png" alt="Call Centre Dashboard Banner" width="100%">
 </p>
 
 <p align="center">
